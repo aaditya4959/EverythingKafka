@@ -1,4 +1,4 @@
-import kafka from "./admin";
+import kafka from "./admin.js";
 
 
 const producer = kafka.producer();

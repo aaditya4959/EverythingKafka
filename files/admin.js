@@ -3,7 +3,7 @@ const {Kafka} = require("kafkajs");
 const kafka = new Kafka({
     clientId: "kafka-app",
     brokers: [
-        "kafka1:9092"
+        "192.168.1.9:9092"
     ]
 })
 
@@ -27,4 +27,4 @@ const initAdmin = async () => {
 
 initAdmin();
 
-export default kafka;
+module.exports =  kafka;
